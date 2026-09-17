@@ -3,8 +3,8 @@ def calculate_offset(base: int, delta: int) -> int:
     
     NOTE: There is an intentional arithmetic defect below for demo/testing.
     """
-    # Defect: Subtraction used instead of addition
-    return base - delta
+    # Fixed: Use addition to compute the correct offset
+    return base + delta
 
 
 def subtract(a: int, b: int) -> int:
